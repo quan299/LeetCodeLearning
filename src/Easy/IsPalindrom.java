@@ -1,6 +1,6 @@
 package Easy;
 
-class Solution {
+class IsPalindrom {
     public boolean isPalindrome(int x) {
 
 
