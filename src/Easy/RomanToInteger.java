@@ -7,7 +7,6 @@ class RomanToInteger {
         for (int i = 0; i < s.length(); i++) {
             int curr = value(s.charAt(i));
 
-            // nếu có ký tự bên phải
             if (i < s.length() - 1) {
                 int next = value(s.charAt(i + 1));
 
@@ -17,7 +16,7 @@ class RomanToInteger {
                     total += curr;
                 }
             } else {
-                // ký tự cuối luôn cộng
+
                 total += curr;
             }
         }
