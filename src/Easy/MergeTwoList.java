@@ -9,7 +9,7 @@ class ListNode {
       ListNode(int val, ListNode next) { this.val = val; this.next = next; }
   }
 
-public class MergeT {
+public class MergeTwoList {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode head = new ListNode(0);
         ListNode cur = head;
